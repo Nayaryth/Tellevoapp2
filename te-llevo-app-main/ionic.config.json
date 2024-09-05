@@ -1,0 +1,8 @@
+{
+  "name": "Te llevo app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "2a5b525f"
+}

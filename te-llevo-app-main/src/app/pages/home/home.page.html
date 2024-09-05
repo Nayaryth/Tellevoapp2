@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- CARD DE BIENVENIDA -->
+  <ion-card>
+    <ion-card-header>
+      --<ion-card-title>Hola, {{ usuarioLogin }} </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Bienvenido al sistema, estamos felices de tenerte aquí.
+    </ion-card-content>
+  </ion-card>
+  <!-- CARD PARA LOS EQUIPOS -->
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Equipos de NBA</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <p>Explora los diferentes equipos de baloncesto, sus estadísticas y más.</p>
+      <ion-button expand="full" routerLink="/equipos">
+        <ion-icon slot="start" name="eye"></ion-icon>
+        Ver Equipos
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- CARD PARA LOS JUGADORES -->
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+      <ion-card-title>Jugadores de NBA</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <p>Explora los diferentes jugadores de baloncesto, sus estadísticas y más.</p>
+      <ion-button expand="full" routerLink="/jugadores">
+        <ion-icon slot="start" name="eye"></ion-icon>
+        Ver Jugadores
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
