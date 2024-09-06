@@ -5,7 +5,7 @@
   <ion-content >
     <ion-card class="rounded-card">
         <ion-card-header class="background-content">
-            <h3 class="custom-title"> Inicie sesion:</h3>
+            <h3 class="custom-title"> Registrese:</h3>
           
         </ion-card-header>
       
@@ -18,8 +18,18 @@
             <ion-input class="custom-title" label= "Nombre completo" labelPlacement="floating" placeholder="Ej: aa.aaa@duocuc.cl"></ion-input>
             <ion-input class="custom-title" label= "Correo institucional" labelPlacement="floating" placeholder="Ej: aa.aaa@duocuc.cl"></ion-input>
             <ion-input class="custom-title" type="password" label="Contraseña" labelPlacement="floating" placeholder="Ej: 12345"></ion-input>
-            <ion-input class="custom-title" label="Carrera" labelPlacement="floating" placeholder="Ej: 12345"></ion-input> 
-            <h4 class="custom-title"> ¿Tiene cuenta? inicie sesion.</h4>
+            <ion-input class="custom-title" label="Carrera" labelPlacement="floating" placeholder="Ej: Ingenieria en informatica"></ion-input> 
+            <ion-button class="primary-button" expand="block" class="secondary-button" fill="outline" (click)="irHome()">Ingresar</ion-button>
+
+            
+           
+
+            <span >
+                Tienes cuenta?
+                <a (click)="irLogin">inicie sesion. </a>
+            </span>
+
+            
         </ion-card-content>
       </ion-card>
   </ion-content>

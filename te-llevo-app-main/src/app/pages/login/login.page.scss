@@ -25,3 +25,16 @@
   width: center;
   height: auto;
 }
+
+.p {
+  line-height: 1.6;
+}
+
+.primary-button {
+  width: 80%;              /* Hacer el botón más ancho */
+  border-radius: 20px;      /* Bordes redondeados */
+}
+
+.secondary-button {
+  border-radius: 20px;      /* Bordes redondeados para el botón de registro */
+}

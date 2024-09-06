@@ -16,8 +16,14 @@
 
 
             <ion-input class="custom-title" label= "Correo institucional" labelPlacement="floating" placeholder="Ej: aa.aaa@duocuc.cl"></ion-input>
-            <ion-input class="custom-title" type="password" label="Contraseña" labelPlacement="floating" placeholder="Ej: 12345"></ion-input>
-            <h4 class="custom-title"> ¿No tiene cuenta? registrese.</h4>
+            <ion-input class="p" class="custom-title" type="password" label="Contraseña" labelPlacement="floating" placeholder="Ej: 12345"></ion-input>
+            <ion-button class="primary-button" expand="block" class="secondary-button" fill="outline" (click)="irHome()" >Ingresar</ion-button>
+
+            <span>
+                ¿No tiene cuenta? 
+                <a (click)="irRegistro()" > Registrarse</a>
+                
+            </span>
         </ion-card-content>
       </ion-card>
   </ion-content>
